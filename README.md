@@ -192,12 +192,6 @@ Katkılarınızı bekliyoruz! Iqamah'ı geliştirmek isterseniz:
 
 ---
 
-## 📄 Lisans
-
-Bu proje MIT Lisansı altında lisanslanmıştır — detaylar için [LICENSE](LICENSE) dosyasına bakın.
-
----
-
 ## 🙏 Teşekkürler
 
 - [Aladhan API](https://aladhan.com/) — ücretsiz ve doğru namaz vakti verileri sağladığı için
