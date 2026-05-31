@@ -6,201 +6,201 @@
 <p align="center"><em>The second call, for the first duty.</em></p>
 
 <p align="center">
-  Namaz vakitlerini takip eden, manevi hatırlatmalar sunan ve günlük ibadeti destekleyen bir Windows masaüstü uygulaması.
+  A Windows desktop application for tracking prayer times, receiving mindful reminders, and supporting your daily worship.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/.NET_Framework-4.8-blue?logo=dotnet" alt=".NET Framework 4.8">
   <img src="https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows" alt="Windows">
-  <img src="https://img.shields.io/badge/Sürüm-2.0.0-green" alt="Sürüm 2.0.0">
-  <img src="https://img.shields.io/badge/Lisans-MIT-yellow" alt="Lisans">
+  <img src="https://img.shields.io/badge/Version-2.0.0-green" alt="Version 2.0.0">
+  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
 </p>
 
 ---
 
-## ✨ Özellikler
+## ✨ Features
 
-### 🕌 Namaz Vakitleri
-- **Anlık namaz takvimi** — [Aladhan API](https://aladhan.com/prayer-times-api) üzerinden konumunuza göre doğru vakitleri çeker
-- **Canlı geri sayım** — Bir sonraki namaz vaktine kalan süreyi animasyonlu olarak gösterir
-- **Aktif vakit vurgulama** — İçinde bulunulan namaz vakti ana ekranda görsel olarak öne çıkar
-- **Namaz takibi** — Gün boyunca kıldığınız namazları işaretleyerek takip edin
-- **Çoklu hesaplama metotları** — 15+ hesaplama yöntemi desteği (Diyanet, MWL, ISNA, Mısır, Mekke, Karaçi vb.)
-- **Çevrimdışı önbellek** — Son çekilen vakitleri yerel olarak saklar, internetsiz de çalışır
+### 🕌 Prayer Times
+- **Accurate prayer schedule** — Fetches times for your location via the [Aladhan API](https://aladhan.com/prayer-times-api)
+- **Live countdown** — Animated countdown to the next prayer
+- **Active prayer highlight** — The current prayer period is visually emphasized on the main screen
+- **Prayer tracking** — Mark each prayer as completed throughout the day
+- **15+ calculation methods** — Diyanet, MWL, ISNA, Egyptian, Mecca, Karachi and more
+- **Offline cache** — Stores the last fetched times locally; works without internet after first launch
 
-### 🔔 Akıllı Bildirimler
-- **Özel bildirim pencereleri** — Standart Windows bildirimleri yerine güzel, özel tasarım bildirimler
-- **Erteleme desteği** — Bildirimleri 5 dakikalık aralıklarla erteleyin (vakit başına en fazla 3 kez)
-- **Vakit öncesi uyarı** — Namaz vaktinden X dakika önce hatırlatma alın (ayarlanabilir)
-- **Cuma namazı bildirimi** — Özelleştirilebilir zamanlama ile özel Cuma hatırlatıcısı
-- **Sesli uyarılar** — Namaz vakti (`prayerNotif.wav`) ve ön uyarı (`alert.wav`) için farklı bildirim sesleri
-- **Otomatik sessiz mod** — Namaz vakti geldiğinde bilgisayar sesini otomatik olarak kapatma seçeneği
+### 🔔 Smart Notifications
+- **Custom notification windows** — Beautiful, purpose-built notifications instead of standard Windows alerts
+- **Snooze support** — Snooze notifications in 5-minute intervals (up to 3 times per prayer)
+- **Pre-prayer reminder** — Get notified X minutes before each prayer (configurable)
+- **Friday prayer notification** — Dedicated Jumu'ah reminder with customizable timing
+- **Audio alerts** — Separate sounds for prayer time (`prayerNotif.wav`) and pre-prayer warning (`alert.wav`)
+- **Auto-silence mode** — Automatically mutes your computer when a prayer time begins
 
-### 📿 Tesbihat & Zikir
-- Ana ekranda hızlı sayım için **dijital tesbih sayacı**
-- 7 yerleşik sayaçlı **genişletilmiş zikir penceresi** (FormTesbih):
-  - Sübhanallah (33×)
-  - Elhamdülillah (33×)
-  - Allahü Ekber (33×)
-  - Lâ ilâhe illallah (100×)
-  - Sübhanallahi ve bihamdihi (100×)
-  - Estağfirullah (100×)
-  - Salavat-ı Şerife (100×)
-- **Klavye kısayolları** — 1–7 ile say, R ile sıfırla, ESC ile kapat
-- **Tamamlanma göstergeleri** — Hedef sayıya ulaşıldığında görsel geri bildirim
+### 📿 Dhikr & Tasbih
+- **Digital tasbih counter** on the main screen for quick counting
+- **Extended dhikr window** with 7 built-in counters:
+  - SubhanAllah (33×)
+  - Alhamdulillah (33×)
+  - Allahu Akbar (33×)
+  - La ilaha illallah (100×)
+  - SubhanAllahi wa bihamdihi (100×)
+  - Astaghfirullah (100×)
+  - Salawat (100×)
+- **Keyboard shortcuts** — Keys 1–7 to count, R to reset, ESC to close
+- **Completion indicators** — Visual feedback when a target count is reached
 
-### 📖 Günün Hadisi
-- **Döngülü hadis gösterimi** — Sahih kaynaklardan derlenmiş 25 hadis koleksiyonu
-- **Otomatik döngü** — Her 30 saniyede yeni bir hadis
-- **Kaynak bilgisi** — Her hadisin yanında kaynak referansı (Buhârî, Müslim, Tirmizî vb.)
+### 📖 Daily Hadith
+- **Rotating hadith display** — A collection of 25 hadith from authentic sources
+- **Auto-rotation** — A new hadith every 30 seconds
+- **Source references** — Each hadith includes its reference (Bukhari, Muslim, Tirmidhi, etc.)
 
-### 🕋 Cuma Hutbeleri
-- Diyanet İşleri Başkanlığı'nın haftalık hutbe arşivine **hızlı erişim**
-- **Her zaman erişilebilir** — Hutbe butonu sadece Cuma günleri değil, her gün aktif
+### 🕋 Friday Khutbah
+- **Quick access** to the weekly khutbah archive from the Diyanet (Turkish Presidency of Religious Affairs)
+- **Always accessible** — The khutbah button is active every day, not just Fridays
 
-### 📅 Tarih Gösterimi
-- **Çift takvim** — Miladi ve Hicri tarihleri aynı anda gösterir
+### 📅 Dual Calendar
+- Displays both **Gregorian and Hijri dates** simultaneously
 
-### 🎨 Modern Arayüz
-- **Koyu tema** — Göze hoş gelen zarif karanlık renk şeması
-- **Kart tabanlı düzen** — Temiz, düzenli ve bölümlenmiş arayüz
-- **Açılış ekranı** — İlk açılışta Besmele selamlı güzel yükleme ekranı
-- **Kenarlıksız pencere** — Sürükleme destekli özel başlık çubuğu
-- **Sistem tepsisi** — Sağ tık menüsüyle tepsiye küçültme (Göster, Ayarlar, Tesbihat, Çıkış)
+### 🎨 Modern Interface
+- **Dark theme** — Elegant, easy-on-the-eyes color scheme
+- **Card-based layout** — Clean, organized, and well-structured UI
+- **Splash screen** — Beautiful loading screen with Basmala on first launch
+- **Borderless window** — Custom title bar with drag support
+- **System tray** — Minimize to tray with right-click menu (Show, Settings, Dhikr, Exit)
 
 ---
 
-## 🚀 Başlarken
+## 🚀 Getting Started
 
-### Gereksinimler
+### Requirements
 
 - **Windows 10/11**
-- **.NET Framework 4.8** (çoğu Windows 10/11 sisteminde önceden yüklüdür)
-- **İnternet bağlantısı** (namaz vakitlerini çekmek için; ilk çekimden sonra çevrimdışı önbellek mevcuttur)
+- **.NET Framework 4.8** (pre-installed on most Windows 10/11 systems)
+- **Internet connection** (for fetching prayer times; offline cache available after first fetch)
 
-### Kurulum
+### Installation (from source)
 
-1. **Depoyu klonlayın**
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Iqamah.git
+   git clone https://github.com/erm1sh/Iqamah.git
    ```
 
-2. **Visual Studio'da açın**
-   - `Iqamah.sln` dosyasını Visual Studio 2019 veya üstü ile açın
+2. **Open in Visual Studio**
+   - Open `Iqamah.sln` with Visual Studio 2019 or later
 
-3. **NuGet paketlerini yükleyin**
-   - Proje `Newtonsoft.Json` ve `ReaLTaiizor` kullanır — NuGet bunları otomatik olarak yükleyecektir
+3. **Restore NuGet packages**
+   - The project uses `Newtonsoft.Json` and `ReaLTaiizor` — NuGet will install them automatically
 
-4. **Derleyin ve Çalıştırın**
-   - `F5`'e basın veya `Derle > Çözümü Derle` üzerinden derleyin
+4. **Build and Run**
+   - Press `F5` or go to **Build → Build Solution**
 
-### Hazır Kullanım
+### Ready-to-use
 
-Derlenmiş bir sürümünüz varsa:
-1. Son sürümü indirin
-2. Arşivi çıkarın
-3. `Iqamah.exe` dosyasını çalıştırın
-
----
-
-## ⚙️ Ayarlar
-
-Ana ekrandaki **⚙** butonundan veya sistem tepsisi sağ tık menüsünden ayarlara ulaşabilirsiniz.
-
-| Ayar | Açıklama |
-|---|---|
-| **Şehir & Ülke** | Doğru namaz vakti hesaplaması için konumunuz |
-| **Hesaplama Metodu** | 15+ yöntem arasından seçim (Diyanet, MWL, ISNA vb.) |
-| **Bildirimler** | Namaz vakti bildirimlerini aç/kapat |
-| **Vakit Öncesi Uyarı** | Her namaz vaktinden X dakika önce bildirim al (1–60 dk) |
-| **Cuma Bildirimi** | Cuma namazı için özel hatırlatma |
-| **Cuma Hutbesi** | Hutbe erişim butonunu göster/gizle |
-| **Namaz Vakti Sessiz Mod** | Vakit geldiğinde bilgisayarı otomatik olarak sessize al |
-| **Her Zaman Üstte** | Pencereyi diğer tüm pencerelerin üzerinde tut |
-| **Tepsiye Küçült** | Görev çubuğu yerine sistem tepsisine küçült |
+If you have a compiled release:
+1. Download the latest release
+2. Extract the archive
+3. Run `Iqamah.exe`
 
 ---
 
-## ⌨️ Klavye Kısayolları
+## ⚙️ Settings
 
-### Ana Pencere
+Access settings via the **⚙** button on the main screen or through the system tray right-click menu.
 
-| Tuş | İşlev |
+| Setting | Description |
 |---|---|
-| `F5` | Namaz vakitlerini yenile |
-| `F1` | Hakkında penceresi |
-| `Ctrl+T` | Her zaman üstte modunu aç/kapa |
-| `Space` | Tesbih sayacını artır |
-| `R` | Tesbih sayacını sıfırla |
-| `ESC` | Tepsiye küçült |
-
-### Tesbihat Penceresi
-
-| Tuş | İşlev |
-|---|---|
-| `1–7` | İlgili zikir sayacını artır |
-| `R` | Tüm sayaçları sıfırla |
-| `ESC` | Pencereyi kapat |
+| **City & Country** | Your location for accurate prayer time calculation |
+| **Calculation Method** | Choose from 15+ methods (Diyanet, MWL, ISNA, etc.) |
+| **Notifications** | Enable/disable prayer time notifications |
+| **Pre-Prayer Alert** | Get notified X minutes before each prayer (1–60 min) |
+| **Friday Notification** | Special reminder for Jumu'ah prayer |
+| **Friday Khutbah** | Show/hide the khutbah access button |
+| **Auto-Silence Mode** | Automatically mute computer at prayer time |
+| **Always on Top** | Keep the window above all other windows |
+| **Minimize to Tray** | Minimize to system tray instead of taskbar |
 
 ---
 
-## 🏗️ Proje Yapısı
+## ⌨️ Keyboard Shortcuts
+
+### Main Window
+
+| Key | Action |
+|---|---|
+| `F5` | Refresh prayer times |
+| `F1` | About window |
+| `Ctrl+T` | Toggle always-on-top |
+| `Space` | Increment tasbih counter |
+| `R` | Reset tasbih counter |
+| `ESC` | Minimize to tray |
+
+### Dhikr Window
+
+| Key | Action |
+|---|---|
+| `1–7` | Increment the corresponding dhikr counter |
+| `R` | Reset all counters |
+| `ESC` | Close window |
+
+---
+
+## 🏗️ Project Structure
 
 ```
 Iqamah/
-├── FormMain.cs/Designer.cs        # Ana uygulama penceresi
-├── FormSettings.cs/Designer.cs    # Ayarlar penceresi
-├── FormBildirim.cs/Designer.cs    # Özel bildirim penceresi
-├── FormTesbih.cs/Designer.cs      # Genişletilmiş tesbihat/zikir penceresi
-├── FormSplash.cs/Designer.cs      # Açılış ekranı
-├── FormAbout.cs/Designer.cs       # Hakkında penceresi
-├── AudioHelper.cs                 # Sistem sesi susturma/açma (Core Audio API)
-├── GunlukIcerik.cs                # Günlük hadis içerik yöneticisi
-├── Program.cs                     # Uygulama giriş noktası
+├── FormMain.cs/Designer.cs        # Main application window
+├── FormSettings.cs/Designer.cs    # Settings window
+├── FormBildirim.cs/Designer.cs    # Custom notification window
+├── FormTesbih.cs/Designer.cs      # Extended dhikr/tasbih window
+├── FormSplash.cs/Designer.cs      # Splash screen
+├── FormAbout.cs/Designer.cs       # About window
+├── AudioHelper.cs                 # System audio mute/unmute (Core Audio API)
+├── GunlukIcerik.cs                # Daily hadith content manager
+├── Program.cs                     # Application entry point
 ├── Properties/
-│   ├── Settings.settings          # Kullanıcı ayarları
-│   ├── Resources.resx             # Gömülü kaynaklar (sesler, görseller)
-│   └── AssemblyInfo.cs            # Derleme meta verileri
+│   ├── Settings.settings          # User settings
+│   ├── Resources.resx             # Embedded resources (sounds, images)
+│   └── AssemblyInfo.cs            # Assembly metadata
 └── Resources/
-    ├── iqamah.png                 # Uygulama logosu
-    ├── prayerNotif.wav            # Namaz vakti bildirim sesi
-    └── alert.wav                  # Vakit öncesi uyarı sesi
+    ├── iqamah.png                 # App logo
+    ├── prayerNotif.wav            # Prayer time notification sound
+    └── alert.wav                  # Pre-prayer alert sound
 ```
 
 ---
 
-## 🛠️ Teknoloji Altyapısı
+## 🛠️ Tech Stack
 
-- **Dil:** C# (.NET Framework 4.8)
-- **Arayüz:** Windows Forms (WinForms)
-- **UI Kütüphanesi:** [ReaLTaiizor](https://github.com/Starter007/ReaLTaiizor) — özel kontroller ve tema
-- **JSON İşleme:** [Newtonsoft.Json](https://www.newtonsoft.com/json)
-- **Namaz Vakitleri API:** [Aladhan API](https://aladhan.com/prayer-times-api)
-- **Ses Kontrolü:** Windows Core Audio API (COM Interop)
-
----
-
-## 🤝 Katkıda Bulunma
-
-Katkılarınızı bekliyoruz! Iqamah'ı geliştirmek isterseniz:
-
-1. Depoyu fork'layın
-2. Bir özellik dalı oluşturun (`git checkout -b ozellik/harika-ozellik`)
-3. Değişikliklerinizi commit'leyin (`git commit -m 'Harika özellik eklendi'`)
-4. Dalı push'layın (`git push origin ozellik/harika-ozellik`)
-5. Bir Pull Request açın
+- **Language:** C# (.NET Framework 4.8)
+- **UI Framework:** Windows Forms (WinForms)
+- **UI Library:** [ReaLTaiizor](https://github.com/Starter007/ReaLTaiizor) — custom controls and theming
+- **JSON:** [Newtonsoft.Json](https://www.newtonsoft.com/json)
+- **Prayer Times API:** [Aladhan API](https://aladhan.com/prayer-times-api)
+- **Audio Control:** Windows Core Audio API (COM Interop)
 
 ---
 
-## 🙏 Teşekkürler
+## 🤝 Contributing
 
-- [Aladhan API](https://aladhan.com/) — ücretsiz ve doğru namaz vakti verileri sağladığı için
-- [Diyanet İşleri Başkanlığı](https://www.diyanet.gov.tr/) — haftalık hutbe içerikleri için
-- Hadis koleksiyonu sahih kaynaklardan derlenmiştir (Buhârî, Müslim, Tirmizî, Ebû Dâvûd, Nesâî, İbn Mâce ve Ahmed b. Hanbel)
+Contributions are welcome! To contribute to Iqamah:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+---
+
+## 🙏 Acknowledgements
+
+- [Aladhan API](https://aladhan.com/) — for providing free and accurate prayer time data
+- [Diyanet İşleri Başkanlığı](https://www.diyanet.gov.tr/) — for weekly khutbah content
+- Hadith collection sourced from authentic references (Bukhari, Muslim, Tirmidhi, Abu Dawud, Nasa'i, Ibn Majah, and Ahmad ibn Hanbal)
 
 ---
 
 <p align="center">
   <strong>Iqamah</strong> — The second call, for the first duty.<br>
-  ❤️ ile yapıldı — <a href="#">Sixteen Digital</a>
+  Made with ❤️ — <a href="#">Sixteen Digital</a>
 </p>
